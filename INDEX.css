@@ -1,0 +1,176 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Home Section */
+#home {
+    padding: 50px 20px;
+    background-color: #e7e7e7;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.2em;
+    color: #47268d;
+    border: 1px solid #4e4e53;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #9e95ed;
+}
+
+#about p {
+    line-height: 1.6;
+}
+
+/* Work Section */
+#work {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+#work ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label {
+    margin-bottom: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #786bda;
+    border-radius: 5px;
+}
+
+#contact input[type="submit"] {
+    width: auto;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #7f5ae4;
+}
+
+/* Hobies Section */
+#hobies {
+    padding: 40px 20px;
+    background-color: #e7e7e7;
+    text-align: center;
+}
+
+#hobies h3 {
+    margin-top: 30px;
+}
+
+#hobies img {
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#hobies iframe, #hobies audio {
+    margin-top: 20px;
+}
+/* Stylisation de la section entière */
+#my\ cv {
+    background-color: #f9f9f9; /* Couleur de fond douce pour la section */
+    padding: 20px; /* Espacement interne autour du contenu */
+    margin: 20px 0; /* Marges autour de la section */
+    border-radius: 10px; /* Arrondit les coins de la section */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce pour l'effet de profondeur */
+}
+
+/* Stylisation du titre h2 */
+#my\ cv h2 {
+    font-family: 'Arial', sans-serif; /* Police pour le titre */
+    font-size: 24px; /* Taille du texte */
+    color: #333; /* Couleur du texte */
+    text-align: center; /* Centre le texte */
+    margin-bottom: 20px; /* Espace sous le titre */
+}
+
+/* Stylisation de l'élément embed */
+#my\ cv embed {
+    display: block; /* Affiche le PDF comme un bloc */
+    margin: 0 auto; /* Centre l'embed horizontalement */
+    border: 2px solid #ddd; /* Ajoute une bordure fine autour du PDF */
+    border-radius: 10px; /* Arrondit les coins de l'embed */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Ajoute une ombre pour l'effet de profondeur */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
